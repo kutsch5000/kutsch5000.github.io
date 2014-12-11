@@ -1,0 +1,46 @@
+/* Your Website Styles */
+body {
+	background: black;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+h1{
+	text-align: center;
+	background: black;
+}
+
+h2{
+	background: black;
+	text-align: center;
+}
+
+header{
+	background-color: #801515;
+	padding-top: 30px;
+	border-radius: 0px 0px 20px 20px;
+}
+
+h1 ~ p{
+	text-align: right;
+	padding-right: 40px;
+}
+
+article{
+	background-color: #407F7F;
+	border-radius: 20px 20px 20px 20px
+}
+
+section{
+	background-color: #A5C663;
+}
+
+li{
+	list-style-type: none;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
