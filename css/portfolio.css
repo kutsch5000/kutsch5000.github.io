@@ -2,18 +2,35 @@ html, body {
   margin: 0;
   padding:0;
   background: black;
+  font-family: 'Lato', sans-serif;
 }
 
-div{
-	padding-top: 50px;
+nav ul a{
+
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+}
+
+li a:hover{
+  color: red;
+}
+
+nav ul li {
+  text-align: center;
+  font-weight: 300;
+  list-style: none;
+    float: left;
+    margin: 0 4px 0 4px;
 }
 
 h1{
-  font-family: 'Lato', sans-serif;
 	color: white;
 	text-align: center;
 	font-weight: 900;
 	font-size: 3em;
+  padding-top: 25px;
 }
 
 h4{
