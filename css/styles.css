@@ -1,14 +1,92 @@
-body{
-	background: black;
-}
-h5{
-	  font-family: 'Lato', sans-serif;
-	  font-weight: 300;
-	  color: white;
-	  text-align: center;
+nav{
+	background: rgb(165,23,36);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 75px;
+	z-index: -1;
 }
 
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+h1{
+	font-family: Arial, serif;
+	font-size: 72pt;
+	text-align: center;
+	color: white;
+	margin-top: -35px;
+	z-index: 0;
 }
+
+img{
+	max-width: auto;
+	max-height: 65px;
+	display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 35%;
+}
+
+@media (max-width: 1064px){
+	nav{
+		height: 60px;
+	}
+	h1{
+		font-family: Arial, serif;
+		font-size: 60pt;
+		text-align: center;
+		color: white;
+		margin-top: -28px;
+		z-index: 0;
+	}
+	img{
+		max-height: 55px;
+		max-width: auto;
+	}
+}
+
+@media (max-width: 946px){
+	nav{
+		height: 40px;
+	}
+	h1{
+		font-family: Arial, serif;
+		font-size: 48px;
+		text-align: center;
+		color: white;
+		margin-top: -17px;
+		z-index: 0;
+	}
+	img{
+		max-height: 35px;
+		max-width: auto;
+	}
+}
+
+@media (max-width: 709px){
+	h1{
+		font-family: Arial, serif;
+		font-size: 36pt;
+		text-align: center;
+		color: white;
+		margin-top: -17px;
+		z-index: 0;
+	}
+}
+
+@media (max-width: 472px){
+	nav{
+		height: 35px;
+	}
+	h1{
+		font-family: Arial, serif;
+		font-size: 28pt;
+		text-align: center;
+		color: white;
+		margin-top: -13px;
+		z-index: 0;
+	}
+	img{
+		max-height: 30px;
+		max-width: auto;
+	}
+}
+
