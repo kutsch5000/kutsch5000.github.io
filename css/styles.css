@@ -23,15 +23,17 @@ img.red{
     margin: 0 auto;
     position: relative;
     top: 35%;
+    visibility: hidden;
 }
 
 img.blue{
 	max-width: auto;
 	max-height: 65px;
-	display: none;
+	display: block;
     margin: 0 auto;
     position: relative;
     top: 35%;
+    visibility: hidden;
 }
 
 img.white{
@@ -60,6 +62,11 @@ img.white{
 		max-width: auto;
 	}
 
+	img.blue{
+		max-height: 55px;
+		max-width: auto;
+	}
+
 	img.white{
 		max-height: 55px;
 		max-width: auto;
@@ -83,6 +90,10 @@ img.white{
 	img.red{
 		display: none;
 	}
+
+	img.blue{
+		display: none;
+	}
 }
 
 @media (max-width: 946px){
@@ -103,6 +114,10 @@ img.white{
 	img.red{
 		display: none;
 	}
+
+	img.blue{
+		display: none;
+	}
 }
 
 @media (max-width: 709px){
@@ -116,6 +131,10 @@ img.white{
 	}
 
 	img.red{
+		display: none;
+	}
+
+	img.blue{
 		display: none;
 	}
 }
@@ -136,6 +155,10 @@ img.white{
 	}
 
 	img.red{
+		display: none;
+	}
+
+	img.blue{
 		display: none;
 	}
 }
