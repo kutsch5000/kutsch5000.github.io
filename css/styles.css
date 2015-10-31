@@ -1,5 +1,5 @@
 nav{
-	background: rgb(165,23,36);
+	background: #A51724;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -20,6 +20,15 @@ img.red{
 	max-width: auto;
 	max-height: 65px;
 	display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 35%;
+}
+
+img.blue{
+	max-width: auto;
+	max-height: 65px;
+	display: none;
     margin: 0 auto;
     position: relative;
     top: 35%;
