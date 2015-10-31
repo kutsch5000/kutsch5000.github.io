@@ -12,17 +12,26 @@ h1{
 	font-size: 72pt;
 	text-align: center;
 	color: white;
-	margin-top: -35px;
+	margin-top: -25px;
 	z-index: 0;
 }
 
-img{
+img.red{
 	max-width: auto;
 	max-height: 65px;
 	display: block;
     margin: 0 auto;
     position: relative;
     top: 35%;
+}
+
+img.white{
+	max-width: auto;
+	max-height: 65px;
+    position: relative;
+    margin: 0 auto;
+    top: 0px;
+    display: none;
 }
 
 @media (max-width: 1064px){
@@ -34,12 +43,36 @@ img{
 		font-size: 60pt;
 		text-align: center;
 		color: white;
-		margin-top: -28px;
+		margin-top: -22px;
 		z-index: 0;
 	}
-	img{
+	img.red{
 		max-height: 55px;
 		max-width: auto;
+	}
+
+	img.white{
+		max-height: 55px;
+		max-width: auto;
+	}
+	
+}
+
+@media (max-width: 1024px){
+	h1{
+		display: none;
+	}
+
+	img.white{
+		max-height: 55px;
+		max-width: auto;
+		display: block;
+		margin: 0 auto;
+		top: 2px;
+	}
+
+	img.red{
+		display: none;
 	}
 }
 
@@ -48,27 +81,33 @@ img{
 		height: 40px;
 	}
 	h1{
-		font-family: Arial, serif;
-		font-size: 48px;
-		text-align: center;
-		color: white;
-		margin-top: -17px;
-		z-index: 0;
+		display: none;
 	}
-	img{
+	img.white{
 		max-height: 35px;
 		max-width: auto;
+		display: block;
+		margin: 0 auto;
+		top: 2px;
+	}
+
+	img.red{
+		display: none;
 	}
 }
 
 @media (max-width: 709px){
 	h1{
-		font-family: Arial, serif;
-		font-size: 36pt;
-		text-align: center;
-		color: white;
-		margin-top: -17px;
-		z-index: 0;
+		display: none;
+	}
+	img.white{
+		display: block;
+		margin: 0 auto;
+		top: 2px;
+	}
+
+	img.red{
+		display: none;
 	}
 }
 
@@ -77,16 +116,18 @@ img{
 		height: 35px;
 	}
 	h1{
-		font-family: Arial, serif;
-		font-size: 28pt;
-		text-align: center;
-		color: white;
-		margin-top: -13px;
-		z-index: 0;
+		display: none;
 	}
-	img{
+	img.white{
 		max-height: 30px;
 		max-width: auto;
+		display: block;
+		margin: 0 auto;
+		top: 2px;
+	}
+
+	img.red{
+		display: none;
 	}
 }
 
