@@ -1,4 +1,4 @@
-var colors = ["#A51724", "#262261"];
+var colors = ["#A51724", "#1E1852"];
 var logos = ["visible", "hidden"];
 var rand = Math.random(); 
 var logocolor = Math.floor(rand * logos.length);
@@ -17,7 +17,7 @@ $(document).ready(function () {
         	$('.red').css("visibility", logos[logocolor]);
     	});
 
-   	if (colors[randomcolor] == "#262261"){
+   	if (colors[randomcolor] == "#1E1852"){
    		$(document).ready(function () {
 		$('.blue').each(function () {
         	$('.blue').css("visibility", 'visible');
@@ -25,4 +25,15 @@ $(document).ready(function () {
    	});
 };
 });
+});
+
+var percentage= .4 * $( window ).height();;
+
+$(window).scroll(function() {
+    if ($(window).scrollTop() > percentage) {
+        $('.opacity').css("opacity", 1);
+    }
+    else{
+        $('.opacity').css("opacity", 0);
+    }
 });

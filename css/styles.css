@@ -1,3 +1,7 @@
+body{
+	background-color: #E6E6E6;
+}
+
 nav{
 	background: #A51724;
 	position: fixed;
@@ -10,10 +14,46 @@ nav{
 h1{
 	font-family: Arial, serif;
 	font-size: 72pt;
-	text-align: center;
 	color: white;
 	margin-top: -25px;
 	z-index: 0;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+h2{
+	font-size: 2em;
+	color: #1E1852;
+}
+.box{
+	width: 100%;
+	height: 100%;
+	background-color: #E6E6E6;
+	position: relative;
+	z-index: -3;
+}
+
+section.aboutme{
+	font-size: 1em;
+	padding-top: 8%;
+	margin-right: 15%;
+	float: right;
+	width: 33%;
+	position: relative;
+	z-index: -2;
+}
+
+img.opacity{
+	max-width: auto;
+	max-height: 65px;
+	position: fixed;
+	margin-top: 5px;
+	left: 44%;
+	opacity: 0;
 }
 
 img.red{
@@ -24,6 +64,7 @@ img.red{
     left: 44%;
     position: absolute;
     visibility: hidden;
+    z-index: -2;
 }
 
 img.blue{
@@ -34,6 +75,7 @@ img.blue{
     left: 44%;
     position: absolute;
     visibility: hidden;
+    z-index: -2;
 }
 
 img.white{
@@ -79,6 +121,13 @@ img.white{
 		display: none;
 	}
 
+	.box{
+		display: none;
+	}
+
+	.opacity{
+		display: none;
+	}
 	img.white{
 		max-height: 55px;
 		max-width: auto;
