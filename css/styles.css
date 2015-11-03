@@ -173,6 +173,15 @@ img.white{
 	h1{
 		display: none;
 	}
+
+	h2{
+		margin-bottom: 5px;
+	}
+
+	p{
+		margin-top: 5px;
+		margin-bottom: 0px;
+	}
 	
 	section.aboutme{
 		font-size: .8em;
