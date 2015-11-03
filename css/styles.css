@@ -176,6 +176,7 @@ img.white{
 
 	h2{
 		margin-bottom: 5px;
+		margin-top: 5px;
 	}
 
 	p{
@@ -184,7 +185,7 @@ img.white{
 	}
 	
 	section.aboutme{
-		font-size: .8em;
+		font-size: .75em;
 		padding-top: 8%;
 		margin-left: 5%;
 		float: left;
