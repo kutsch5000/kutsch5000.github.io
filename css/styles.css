@@ -29,7 +29,7 @@ h2{
 	font-size: 2em;
 	color: #1E1852;
 }
-.box{
+div.box{
 	width: 100%;
 	height: 100%;
 	background-color: #E6E6E6;
@@ -121,7 +121,7 @@ img.white{
 		display: none;
 	}
 
-	.box{
+	div.box{
 		display: none;
 	}
 
